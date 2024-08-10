@@ -2,7 +2,6 @@
 
 `npm install --save seafret`
 
-</hr>
 # Example
 
 ```js
