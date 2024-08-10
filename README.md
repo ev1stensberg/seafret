@@ -3,7 +3,7 @@
 `npm install --save seafret`
 
 </hr>
-#Example
+# Example
 
 ```js
 
