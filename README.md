@@ -1,4 +1,4 @@
-#Seafret - Minimal CLI parser
+# Seafret - Minimal CLI parser
 
 `npm install --save seafret`
 
