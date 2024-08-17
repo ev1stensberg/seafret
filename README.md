@@ -1,20 +1,18 @@
-# Seafret - Minimal CLI parser
+# Seafret - Minimal Invariant CLI parser
 
 `npm install --save seafret`
 
 # Example
 
 ```js
+import Seafret from "seafret";
+const cli = new Seafret("2.0.0");
+cli
+  .option("-go", "Tells the Program to Run")
+  .option("food", "Food couldnt be found")
+  .send(process.argv);
 
-const Seafret = require('seafret');
-const otter = new Seafret('2.0.0');
-
-otter
-.option('-go', 'Tells the Program to Run')
-.option('-food', 'Tells the program to get food')
-.send(process.argv)
-
-if(otter.food) {
-  console.log("daym")
+if (cli.satisfied.food) {
+  console.log("daym: ".concat(cli.satisfied.food));
 }
 ```
