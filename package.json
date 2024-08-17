@@ -1,6 +1,6 @@
 {
   "name": "seafret",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Minimal invariant arg interface",
   "main": "seafret.js",
   "author": "Even Stensberg<evenstensberg@gmail.com>",
