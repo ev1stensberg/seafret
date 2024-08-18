@@ -12,7 +12,7 @@ cli
   .option("food", "Food couldnt be found")
   .send(process.argv);
 
-if (cli.satisfied.food) {
+if (!cli.satisfied.food) {
   console.log("daym: ".concat(cli.satisfied.food));
 }
 ```
