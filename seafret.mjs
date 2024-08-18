@@ -62,9 +62,9 @@ export default class {
     return this;
   }
 
-  send(argv) {
+  validate(argv) {
     argv.forEach((arg) => {
-      if (this.invariants[arg]) this.satisfied[arg] = this.invariants[arg];
+      if (this.invariants[arg]) this.satisfied[arg] = true;
     });
     return this;
   }

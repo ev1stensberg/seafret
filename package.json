@@ -2,14 +2,16 @@
   "name": "seafret",
   "version": "0.0.4",
   "description": "Minimal invariant arg interface",
-  "main": "seafret.js",
-  "author": "Even Stensberg<evenstensberg@gmail.com>",
+  "main": "seafret.mjs",
+  "author": "Even Stensberg <evenstensberg@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ev1stensberg/seafret.git"
   },
   "scripts": {
-    "prettify": "npx prettier . --write"
-  }
+    "prettify": "npx prettier . --write",
+    "test": "node ./test.mjs"
+  },
+  "keywords": [":)"]
 }
