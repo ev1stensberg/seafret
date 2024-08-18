@@ -8,15 +8,6 @@ function output_invariants_table(key, value) {
   process.stdout.write(line);
 }
 
-function has(flags, argv) {
-  argv.forEach((arg) => {
-    flags.forEach((flag) => {
-      if (arg.includes(flag)) return true;
-    });
-  });
-  return false;
-}
-
 export default class {
   name = new String("invariant application");
   version = new String("No version specified");
