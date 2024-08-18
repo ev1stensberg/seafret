@@ -13,6 +13,6 @@ cli
   .send(process.argv);
 
 if (!cli.satisfied.food) {
-  console.log("daym: ".concat(cli.satisfied.food));
+  console.log("daym: ".concat(cli.invariants.food));
 }
 ```
