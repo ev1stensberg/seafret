@@ -1,6 +1,6 @@
 {
   "name": "seafret",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Minimal invariant arg interface",
   "main": "seafret.mjs",
   "author": "Even Stensberg <evenstensberg@gmail.com>",
@@ -13,5 +13,7 @@
     "prettify": "npx prettier . --write",
     "test": "node ./test.mjs"
   },
-  "keywords": [":)"]
+  "keywords": [
+    ":)"
+  ]
 }
