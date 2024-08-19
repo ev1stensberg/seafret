@@ -28,7 +28,7 @@ describe("Name variants should be ok", (t) => {
 describe("Help should output invariants", (t) => {
   it("show invariants", () => {
     const t5 = new Seafret("0.0.1", "evenstensberg");
-    t5.invariant("--foo", "1").invariant("--bar", "2").send(process.argv);
+    t5.invariant("--foo", "1").invariant("--bar", "2").validate(process.argv);
     // todo snapshot
     assert.ok(t5.help());
   });
